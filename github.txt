@@ -1,0 +1,11 @@
+
+
+    https://github.com/Victo-2337083/voisins.git
+    
+			echo "# voisins" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/Victo-2337083/voisins.git
+		git push -u origin main
