@@ -1,0 +1,7 @@
+echo "# mise_enLigne" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Victo-2337083/mise_enLigne.git
+git push -u origin main
