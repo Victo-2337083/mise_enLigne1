@@ -1,5 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
+// Dans votre fichier de démarrage
+import cors from 'cors';
+// Déclaration des middlewares
+app.use(cors());
 
 // À ajuster selon votre structure
 import routes from './src/routes/pokemon.route.js'; 
