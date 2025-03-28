@@ -141,3 +141,4 @@ const suprimerPokemonById = (req, res) => {
 
 export { PokemonById, PokemonBytype, modifierUnPokemon, ajouterPokemons, suprimerPokemonById };
 
+
